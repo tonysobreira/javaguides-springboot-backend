@@ -12,7 +12,7 @@ import net.javaguides.springboot.model.User;
 import net.javaguides.springboot.repository.UserRepository;
 
 //@CrossOrigin(origins = "http://localhost:3000")
-@CrossOrigin(origins = "https://javaguides-springboot-backend.herokuapp.com")
+@CrossOrigin(origins = "https://javaguides-react-frontend.herokuapp.com/")
 @RestController
 @RequestMapping("api/")
 public class UserController {
